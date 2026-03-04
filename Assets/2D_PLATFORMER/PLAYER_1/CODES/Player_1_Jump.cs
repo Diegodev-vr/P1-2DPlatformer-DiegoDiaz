@@ -91,9 +91,8 @@ public class Player_1_Jump : MonoBehaviour
         ///// Bool to set animator transition grounded after jump
         animator.SetBool("IsGrounded", isGrounded);
 
-        ///// set jumping animation when going up
-        animator.SetFloat("Jumping", rb.linearVelocity.y);
-
+        ////// Bool to set animator transition jumping after jump
+        animator.SetBool("IsJumping", !isGrounded);
         ///// Handle coyote time 
         if (isGrounded)
         {
