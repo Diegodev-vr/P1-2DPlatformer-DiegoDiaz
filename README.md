@@ -2,7 +2,7 @@
 Dawson College | Scripting 2 | 582-85E-DW
 Diego Diaz - Student # 2545873
 
-Im using same repository because I'm evolving the pltaform project
+Im using same repository because I'm evolving the platform project
 
 https://github.com/Diegodev-vr/P1-2DPlatformer-DiegoDiaz.git
 
