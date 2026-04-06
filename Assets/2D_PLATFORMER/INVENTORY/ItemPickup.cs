@@ -3,7 +3,7 @@ using UnityEngine;
 public class ItemPickup : MonoBehaviour
 {
     [SerializeField]
-    private ItemType m_type;
+    private ItemDataSO m_type;
 
     ///// when the player collides with the item pickup, try to add it to their inventory and destroy the pickup if successful
     private void OnTriggerEnter2D(Collider2D other)

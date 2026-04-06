@@ -1,25 +1,21 @@
-# P1-2DPlatformer-DiegoDiaz
+# P2-UISystem-DiegoDiaz
 Dawson College | Scripting 2 | 582-85E-DW
 Diego Diaz - Student # 2545873
 
+Im using same repository because im evolving the plataform project
+
 https://github.com/Diegodev-vr/P1-2DPlatformer-DiegoDiaz.git
 
-NEW INPUT SYSTEM CONTROLS
-- Keyboard
+- CONTROLS KEYBOARD
     Movement: WASD or arrow Keys
     Jump: Spacebar
-- Gamepad
-    Movement: Left stick
-    Jump: South button
+    Action: Enter
 
-- PHYSICS APPROACH
-    I used the Rigidbody2D for Physics interactions
-    fixedUpdate() has the logic of these physics rb.linearVelocity
-    as Jump uses physics I did movement also with physics
-    physics provides natural and smoother movement and a better integration with unity 2D physics system
+- INVENTORY SYSTEM
+    Im usin scriptable Objects to create a collectible inventory of Powers (4 colors)
 
-- GROUND DETECTION
-    Physics2D.OverlapBox with LayerMask filtering
+- EVENTS
+    I'm usinc C# events to comunicate between codes and have more control
 
-- JUMP TECHNIQUE
-    Coyote time
+- CANVAS RENDER
+    Scale with screen with a match of 0.5 and a reference pixel of 100 and a resolution reference of 1920x1080
